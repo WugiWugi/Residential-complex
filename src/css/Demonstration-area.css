@@ -1,0 +1,46 @@
+.Demonstration-area{
+
+}
+
+.demonstration-area__map-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.demonstration-area-map-subtitle{
+font-size: 1.9em;
+}
+
+.demonstration-area__map-title{
+font-size: 4em;
+margin-bottom: 40px;
+}
+
+.demonstration-area__information{
+    font-size: 2em;
+}
+
+.demonstration-area__panoram{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid hsl(349, 36%, 35%, 30%);
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #773844;
+    margin: 20px 0px 100px 0px;
+}
+
+.demonstration-area__container{
+
+}
+
+.demonstration-area__container-title{
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}

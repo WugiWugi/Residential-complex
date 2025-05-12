@@ -1,7 +1,7 @@
 import '../css/Start.css'
 import img from '../assets/img.jpg'
 import icon from '../assets/icon/award.svg'
-
+import Features from '../assets/Features.png'
 function Start() {
     return (
         <section className="start">
@@ -53,9 +53,17 @@ function Start() {
 
             <div className="start__images">
                 <div className="start__main-image">
-                    <img src={img} alt="img" className="start__main-img"/>
-                <img src={icon} alt="" className="start__main-icon"/>
-
+                    <img src={img} alt="img" className="start__main-img" />
+                    <img src={icon} alt="" className="start__main-icon" />
+                    <div className="start__collages-img">
+                        <div className="start__queue-container">
+                            <div className="start__queue">1 очередь <span className="start__text-collor-green">2022</span></div>
+                            <div className="start__queue">2 очередь <span className="start__text-collor-green">2023</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="start__calages">
+                    <img src={Features} alt="" srcset="" />
                 </div>
             </div>
 

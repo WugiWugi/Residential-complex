@@ -7,10 +7,6 @@
     --color-green: #A0A747;
 }
 
-.start {
-    padding: 20px 40px;
-}
-
 .header__container {
     display: flex;
     justify-content: space-between;
@@ -64,29 +60,51 @@
 .start__title {
     font-size: 5em;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .start__subtitle {
     font-size: 2em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
     text-decoration-color: var(--color-green);
     text-underline-offset: 4px;
     cursor: pointer;
 }
 
-.start__main-image{
-position: relative;
+.start__main-image {
+    position: relative;
 
 }
 
-.start__main-icon{
-position: absolute;
-right: 20px;
-top: -25px;
+.start__main-icon {
+    position: absolute;
+    right: 20px;
+    top: -25px;
 }
 
-.start__main-img{
-width: 100%;
+.start__main-img {
+    width: 100%;
+}
+
+.start__queue-container {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+    gap: 15px;
+}
+
+.start__queue {
+    background-color: hsl(0, 0%, 0%, 70%);
+    font-size: 2em;
+    color: white;
+    padding: 5px 10px 10px 10px;
+    border-radius: 6px;
+}
+
+.start__text-collor-green {
+    color: var(--color-green);
+}
+
+.start__calages {
+    margin: 60px 300px 150px 300px;
 }
