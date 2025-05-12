@@ -1,0 +1,92 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --color-green: #A0A747;
+}
+
+.start {
+    padding: 20px 40px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.header__logo {
+    height: 2.7em;
+
+}
+
+.header__title {
+    font-size: 4em;
+    line-height: 0.7;
+}
+
+.header__cooperation {
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+.header__contacts {
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-decoration-color: hsl(0, 0%, 0%, 10%);
+    text-underline-offset: 4px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.header__contacts:hover {
+    text-decoration-color: hsl(0, 0%, 0%, 100%);
+}
+
+.start__info {
+    margin: 100px;
+}
+
+.start__info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.start__title {
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.start__subtitle {
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: var(--color-green);
+    text-underline-offset: 4px;
+    cursor: pointer;
+}
+
+.start__main-image{
+position: relative;
+
+}
+
+.start__main-icon{
+position: absolute;
+right: 20px;
+top: -25px;
+}
+
+.start__main-img{
+width: 100%;
+}
