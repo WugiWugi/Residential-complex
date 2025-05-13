@@ -1,28 +1,26 @@
-.Demonstration-area{
+.Demonstration-area {}
 
+.demonstration-area__map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.demonstration-area__map-container{
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
+.demonstration-area-map-subtitle {
+    font-size: 1.9em;
 }
 
-.demonstration-area-map-subtitle{
-font-size: 1.9em;
+.demonstration-area__map-title {
+    font-size: 4em;
+    margin-bottom: 40px;
 }
 
-.demonstration-area__map-title{
-font-size: 4em;
-margin-bottom: 40px;
-}
-
-.demonstration-area__information{
+.demonstration-area__information {
     font-size: 2em;
 }
 
-.demonstration-area__panoram{
+.demonstration-area__panoram {
     font-size: 2em;
     display: flex;
     justify-content: center;
@@ -35,12 +33,126 @@ margin-bottom: 40px;
     margin: 20px 0px 100px 0px;
 }
 
-.demonstration-area__container{
-
+.demonstration-area__container {
+    position: relative;
 }
 
-.demonstration-area__container-title{
+.demonstration-area__container-title {
     text-align: center;
     font-size: 3.5em;
     margin-bottom: 20px;
+}
+
+.demonstration-area__img-container {
+    display: flex;
+    max-width: 2000px;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.demonstration-area__poklonnaya-Mountain,
+.demonstration-area__moscow-city,
+.demonstration-area__matveevsky-forest,
+.demonstration-area__ramenki-district {
+    padding: 10px;
+    background-color: hsl(0, 0%, 0%, 50%);
+    border: 0px;
+    color: hsl(208, 100%, 97%, 50%);
+    cursor: pointer;
+}
+
+.demonstration-area__rayon-demonstration-btn {
+    position: absolute;
+    bottom: 5%;
+    right: 40%;
+}
+
+.persional__presentation {
+    margin: 200px 350px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+}
+
+.persional__presentation-container {
+    width: 600px;
+}
+
+.persional__presentation-subtitle {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.persional__presentation-title {
+    font-size: 4em;
+}
+
+.persional__presentation-list-container {
+    margin: 20px;
+}
+
+.persional__presentation-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.persional__presentation-list-item {
+    font-size: 1.5em;
+}
+
+.border {
+    border: 1px solid hsl(0, 0%, 0%, 10%);
+    margin: 40px 0px 20px 0px;
+}
+
+.persional__presentation-form-title {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.pesrional__presentation-form-btn,
+.pesrional__presentation-form-text-field {
+    margin: 10px 10px 10px 0px;
+    padding: 10px 23px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(248, 248, 248);
+    font-size: 2em;
+}
+
+.pesrional__presentation-form-btn {
+    background-color: #773844;
+    color: rgb(226, 226, 226);
+}
+
+.persional__presentation-footer {
+    font-size: 1.2em;
+}
+
+.persional__presentation__women-img {
+    position: absolute;
+    bottom: -3px;
+    right: 0px;
+}
+
+.persional__presentation__women-name,
+.persional__presentation__women-specialisation {
+    position: absolute;
+    color: #ffffff;
+    z-index: 3;
+    font-size: 1.5em;
+}
+
+.persional__presentation__women-name {
+    bottom: 105px;
+    right: 223px;
+    font-weight: 700;
+}
+
+.persional__presentation__women-specialisation {
+    bottom: 40px;
+    right: 160px;
 }
