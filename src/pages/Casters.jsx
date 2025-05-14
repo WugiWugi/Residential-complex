@@ -1,4 +1,14 @@
 import '../css/Casters.css'
+import riderLineSlide1 from '../assets/Rider-line-slide-1.jpg'
+import riderLineSlide2 from '../assets/Rider-line-slide-2.jpg'
+import riderLineSlide3 from '../assets/Rider-line-slide-3.jpg'
+import riderLineSlide4 from '../assets/Rider-line-slide-4.jpg'
+import riderLineSlide5 from '../assets/Rider-line-slide-5.jpg'
+import riderLineSlide6 from '../assets/Rider-line-slide-6.jpg'
+import riderLineSlide7 from '../assets/Rider-line-slide-7.jpg'
+import parkLineSlide1 from '../assets/Park-line-slide-1.jpg'
+import parkLineSlide2 from '../assets/Park-line-slide-2.jpg'
+import parkLineSlide3 from '../assets/Park-line-slide-3.jpg'
 
 function Casters() {
     return (
@@ -17,9 +27,13 @@ function Casters() {
                         </div>
                     </div>
                     <div className="casters__river-line-img">
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+                        <img src={riderLineSlide1} alt="Rider slide 1" />
+                        <img src={riderLineSlide2} alt="Rider slide 2" />
+                        <img src={riderLineSlide3} alt="Rider slide 3" />
+                        <img src={riderLineSlide4} alt="Rider slide 4" />
+                        <img src={riderLineSlide5} alt="Rider slide 5" />
+                        <img src={riderLineSlide6} alt="Rider slide 6" />
+                        <img src={riderLineSlide7} alt="Rider slide 7" />
                     </div>
                 </div>
 
@@ -34,9 +48,9 @@ function Casters() {
                         </div>
                     </div>
                     <div className="casters__park-line-img">
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+                        <img src={parkLineSlide1} alt="Park slide 1" />
+                        <img src={parkLineSlide2} alt="Park slide 2" />
+                        <img src={parkLineSlide3} alt="Park slide 3" />
                     </div>
                 </div>
             </div>

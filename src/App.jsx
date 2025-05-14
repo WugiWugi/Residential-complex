@@ -2,6 +2,7 @@ import './css/App.css'
 import { Start } from './pages/Start'
 import { DemonstrationArea } from './pages/Demonstration-area'
 import { Casters } from './pages/Casters'
+import { Apartments } from './pages/apartments'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Start />
       <DemonstrationArea />
       <Casters />
+      <Apartments />
     </>
   )
 }

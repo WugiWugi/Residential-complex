@@ -1,5 +1,6 @@
 .casters {
     color: white;
+    padding-bottom: 20px;
 }
 
 .casters__title {
@@ -10,11 +11,13 @@
 }
 
 .casters__river-line {
-    background-color: #1F2057
+    background-color: #1F2057;
+    padding-bottom: 50px;
 }
 
 .casters__park-line {
-    background-color: #A0A747
+    background-color: #A0A747;
+    padding-bottom: 50px;
 }
 
 .casters__river-line-container,
@@ -25,7 +28,7 @@
 
 .casters__river-title__container,
 .casters__park-title__container {
-    width: 600px;
+    width: 580px;
 }
 
 .casters__river-line-title,
@@ -53,10 +56,25 @@
     margin: 0px 0px 30px 0px;
     padding: 10px;
     border-radius: 10px;
+    font-size: 1.8em;
+    font-weight: 700;
     border: none;
     cursor: pointer;
 }
 
 .casters__river-line-img,
-.casters__park-line-img {}
+.casters__park-line-img {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
 
+.casters__river-line-img img,
+.casters__park-line-img img {
+    border-radius: 6px;
+}
+
+.casters__river-line-img::-webkit-scrollbar,
+.casters__park-line-img::-webkit-scrollbar {
+    display: none;
+}
