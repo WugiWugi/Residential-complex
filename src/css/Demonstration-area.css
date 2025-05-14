@@ -76,16 +76,17 @@
 }
 
 .persional__presentation-container {
-    width: 600px;
+    width: 700px;
 }
 
 .persional__presentation-subtitle {
-    text-align: center;
-    font-size: 1.2em;
+    font-size: 1.7em;
+    color: #773844;
+    margin-left: 100px;
 }
 
 .persional__presentation-title {
-    font-size: 4em;
+    font-size: 5em;
 }
 
 .persional__presentation-list-container {
@@ -106,6 +107,7 @@
 .border {
     border: 1px solid hsl(0, 0%, 0%, 10%);
     margin: 40px 0px 20px 0px;
+    width: 550px;
 }
 
 .persional__presentation-form-title {
@@ -126,6 +128,7 @@
 .pesrional__presentation-form-btn {
     background-color: #773844;
     color: rgb(226, 226, 226);
+    cursor: pointer;
 }
 
 .persional__presentation-footer {
