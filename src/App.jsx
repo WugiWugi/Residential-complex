@@ -3,6 +3,8 @@ import { Start } from './pages/Start'
 import { DemonstrationArea } from './pages/Demonstration-area'
 import { Casters } from './pages/Casters'
 import { Apartments } from './pages/apartments'
+import { Test } from './pages/Test'
+import { ApartmentDecoration } from './pages/Apartment-decoration'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
       <DemonstrationArea />
       <Casters />
       <Apartments />
+      <Test />
+      <ApartmentDecoration />
     </>
   )
 }

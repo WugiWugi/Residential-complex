@@ -1,0 +1,45 @@
+.Apartment-decoration {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Apartment-decoration__benefit-of-finishing-title {
+    text-align: center;
+    font-size: 4.5em;
+}
+
+.Apartment-decoration__benefit-of-finishing-subtitle {
+    text-align: center;
+    margin: 10px 0px 40px 0px;
+    font-size: 2em;
+}
+
+.Apartment-decoration__benefit-of-finishing-information-containers {
+    display: flex;
+    gap: 20px;
+}
+
+.Apartment-decoration__benefit-of-finishing-information-container {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.Apartment-decoration__benefit-of-finishing-information-img {
+    border-radius: 5px;
+}
+
+.Apartment-decoration__benefit-of-finishing-information-text-container {
+    padding: 10px;
+}
+
+.Apartment-decoration__benefit-of-finishing-information-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Apartment-decoration__benefit-of-finishing-information-text {
+    font-size: 2em;
+}
