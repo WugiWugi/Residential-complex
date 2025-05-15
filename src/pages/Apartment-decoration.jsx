@@ -7,9 +7,12 @@ import benefitOfFinishing3 from '../assets/Frame 1953.jpg'
 function ApartmentDecoration() {
     return (
         <section className="Apartment-decoration">
+
             <div className="Apartment-decoration__benefit-of-finishing-container">
+
                 <h2 className="Apartment-decoration__benefit-of-finishing-title">Отделка от застройщика</h2>
                 <p className="Apartment-decoration__benefit-of-finishing-subtitle">Экономьте на стоимости ремонта, покупая квартиру с готовой отделкой</p>
+
                 <div className="Apartment-decoration__benefit-of-finishing-information-containers">
 
                     <div className="Apartment-decoration__benefit-of-finishing-information-container">
@@ -52,7 +55,17 @@ function ApartmentDecoration() {
                     </div>
 
                 </div>
+
             </div>
+
+            <div className="Apartment-decoration__finishing-variants">
+                <h2 className="Apartment-decoration__finishing-variants-title">Отделка от застройщика</h2>
+                <div className="Apartment-decoration__white-finishing">
+                    <h3 className="Apartment-decoration__white-finishing-title">Светлая отделка</h3>
+                    <button className="Apartment-decoration__white-finishing-btn">Скачать дизайн-буклет</button>
+                </div>
+            </div>
+
         </section>
     )
 }
