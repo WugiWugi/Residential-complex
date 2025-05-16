@@ -5,6 +5,8 @@ import { Casters } from './pages/Casters'
 import { Apartments } from './pages/apartments'
 import { Test } from './pages/Test'
 import { ApartmentDecoration } from './pages/Apartment-decoration'
+import { AboutUs } from './pages/About-us'
+import { Footer } from './pages/footer'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
       <Apartments />
       <Test />
       <ApartmentDecoration />
+      <AboutUs />
+      <Footer />  
     </>
   )
 }

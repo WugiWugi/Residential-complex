@@ -1,0 +1,99 @@
+:root {
+    --min-white-color: hsl(0, 0%, 100%, 70%)
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0px;
+}
+
+.about-us__advantages {
+    position: relative;
+}
+
+.about-us__advantages-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-us__advantages-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    padding: 50px;
+    color: white;
+    display: flex;
+    gap: 500px;
+    box-sizing: border-box;
+}
+
+.about-us__information-block {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-us__advantages-title {
+    font-size: 5em;
+    line-height: 1.05;
+}
+
+.about-us__advantages-text {
+    font-size: 2em;
+    margin-top: 15px;
+}
+
+.about-us__advantages-information-list,
+.about-us__advantages-information-sublist,
+.about-us__advantages-documentation-list,
+.about-us__advantages-documentation-sublist {
+    list-style: none;
+}
+
+.about-us__advantages-information-list {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-us__advantages-information-list-item {
+    font-size: 3.2em;
+}
+
+.about-us__advantages-information-sublist-item {
+    font-size: 0.5em;
+    color: var(--min-white-color);
+}
+
+.about-us__advantages-documentation-list-item {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.about-us__advantages-documentation-sublist {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.about-us__advantages-documentation-sublist-item {
+    color: var(--min-white-color);
+    font-weight: 400;
+}
+
+.about-us__cans {
+    margin-top: 130px;
+}
+
+.about-us__cans-title {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 5em;
+    line-height: 1.05;
+}
+

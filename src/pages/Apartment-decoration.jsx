@@ -2,12 +2,19 @@ import '../css/Apartment-decoration.css'
 import benefitOfFinishing1 from '../assets/Frame 1956.jpg'
 import benefitOfFinishing2 from '../assets/image 210.jpg'
 import benefitOfFinishing3 from '../assets/Frame 1953.jpg'
-
+import whiteFinishing1 from '../assets/Light_1.jpg'
+import whiteFinishing2 from '../assets/Description.jpg'
+import whiteFinishing3 from '../assets/Light_2.jpg'
+import whiteFinishing4 from '../assets/Light_3.jpg'
+import darkFinishing1 from '../assets/Description-2.jpg'
+import darkFinishing2 from '../assets/Dark_1.jpg'
+import darkFinishing3 from '../assets/Dark_2.jpg'
+import darkFinishing4 from '../assets/Dark_3.jpg'
 
 function ApartmentDecoration() {
     return (
         <section className="Apartment-decoration">
-
+<div className="container">
             <div className="Apartment-decoration__benefit-of-finishing-container">
 
                 <h2 className="Apartment-decoration__benefit-of-finishing-title">Отделка от застройщика</h2>
@@ -31,7 +38,7 @@ function ApartmentDecoration() {
                     <div className="Apartment-decoration__benefit-of-finishing-information-container">
                         <img src={benefitOfFinishing2} alt="benefitOfFinishing3" className="Apartment-decoration__benefit-of-finishing-information-img" />
                         <div className="Apartment-decoration__benefit-of-finishing-information-text-container">
-                            <h3 className='Apartment-decoration__benefit-of-finishing-information-title'>Чистота и тишина,<br />без шума и пыли</h3>
+                            <h3 className='Apartment-decoration__benefit-of-finishing-information-title'>Чистота и тишина,<br />без шума и пыли</h3>
                             <p className="Apartment-decoration__benefit-of-finishing-information-text">
                                 Забудьте шум от «бесконечного<br />
                                 ремонта» соседей и лифт,<br />
@@ -59,13 +66,37 @@ function ApartmentDecoration() {
             </div>
 
             <div className="Apartment-decoration__finishing-variants">
-                <h2 className="Apartment-decoration__finishing-variants-title">Отделка от застройщика</h2>
-                <div className="Apartment-decoration__white-finishing">
-                    <h3 className="Apartment-decoration__white-finishing-title">Светлая отделка</h3>
-                    <button className="Apartment-decoration__white-finishing-btn">Скачать дизайн-буклет</button>
+                <h2 className="Apartment-decoration__finishing-variants-title">2 варианта отделки</h2>
+
+                <div className="apartament-decoration__border"></div>
+
+                <div className="Apartment-decoration__finishing">
+                    <div className="Apartment-decoration__finishing-text-container">
+                        <h3 className="Apartment-decoration__finishing-title">Светлая отделка</h3>
+                        <button className="Apartment-decoration__finishing-btn">Скачать дизайн-буклет</button>
+                    </div>
+                    <div className="Apartment-decoration__finishing-img-container">
+                        <img src={whiteFinishing1} alt="White-Finishing-Img-1" className="img" />
+                        <img src={whiteFinishing2} alt="White-Finishing-Img-2" className="img" />
+                        <img src={whiteFinishing3} alt="White-Finishing-Img-3" className="img" />
+                        <img src={whiteFinishing4} alt="White-Finishing-Img-4" className="img" />
+                    </div>
+
+                    <div className="apartament-decoration__border"></div>
+
+                    <div className="Apartment-decoration__finishing-text-container">
+                        <h3 className="Apartment-decoration__finishing-title">Тёмная отделка</h3>
+                        <button className="Apartment-decoration__finishing-btn">Скачать дизайн-буклет</button>
+                    </div>
+                    <div className="Apartment-decoration__finishing-img-container">
+                        <img src={darkFinishing1} alt="Dark-Finishing-img-1" />
+                        <img src={darkFinishing2} alt="Dark-Finishing-img-2" />
+                        <img src={darkFinishing3} alt="Dark-Finishing-img-3" />
+                        <img src={darkFinishing4} alt="Dark-Finishing-img-4" />
+                    </div>
                 </div>
             </div>
-
+            </div>
         </section>
     )
 }

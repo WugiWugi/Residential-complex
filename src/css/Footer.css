@@ -1,0 +1,64 @@
+:root {
+    --boobun-color: hsl(349, 36%, 34%, 30%)
+}
+
+.footer {
+    background-color: white;
+
+
+}
+
+.footer__text-block {
+    display: flex;
+    width: 1190px;
+    align-items: flex-end;
+    border-bottom: 1px solid var(--boobun-color);
+    margin-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+.footer__title {
+    font-size: 4em;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.footer__container {
+    display: flex;
+    font-size: 2.3em;
+    width: 1190px;
+}
+
+.footer__information-block {
+    margin-top: 50px;
+    
+}
+
+.footer__logo-container,
+.footer__location-information {
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--boobun-color);
+}
+
+.footer__phone-information {
+    align-items: flex-end;
+}
+
+.footer__phone-number {
+    font-size: 1.1em;
+}
+
+.working {
+    font-size: 0.5em;
+    color: #A0A747;
+}
+
+.footer__location-information,
+.footer__phone-information {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__map {}

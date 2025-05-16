@@ -3,9 +3,13 @@
     padding-bottom: 20px;
 }
 
+.start__container{
+    padding: 20px 50px;
+}
+
 .casters__title {
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
     color: black;
     margin-bottom: 50px;
 }
