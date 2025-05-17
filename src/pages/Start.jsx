@@ -30,7 +30,7 @@ function Start() {
                 <div className="start__images">
                     <div className="start__main-image">
                         <img src={img} alt="img" className="start__main-img" />
-                        <img src={icon} alt="" className="start__main-icon" />
+                        <img src={icon} alt="icon" className="start__main-icon" />
                         <div className="start__collages-img">
                             <div className="start__queue-container">
                                 <div className="start__queue">1 очередь <span className="start__text-collor-green">2022</span></div>

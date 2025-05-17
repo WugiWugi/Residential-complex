@@ -9,17 +9,20 @@ import { AboutUs } from './pages/About-us'
 import { Footer } from './pages/footer'
 
 function App() {
-
   return (
     <>
-      <Start />
-      <DemonstrationArea />
-      <Casters />
-      <Apartments />
-      <Test />
-      <ApartmentDecoration />
-      <AboutUs />
-      <Footer />  
+      <main className="main">
+        <Start />
+        <DemonstrationArea />
+        <Casters />
+        <Apartments />
+        <Test />
+        <ApartmentDecoration />
+        <AboutUs />
+      </main>
+      <footer className='footer'>
+        <Footer />
+      </footer>
     </>
   )
 }

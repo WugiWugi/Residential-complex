@@ -7,9 +7,20 @@
     --color-green: #A0A747;
 }
 
+.start__container{
+    padding: 20px 50px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
 .header__container {
     display: flex;
     justify-content: space-between;
+    width: 1800px;
 }
 
 .header__contacts {
@@ -34,6 +45,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+
 }
 
 .start__title {
@@ -49,19 +61,21 @@
     cursor: pointer;
 }
 
+.start__images{
+    display: flex;
+    justify-content: center;
+}
+
 .start__main-image {
     position: relative;
-
+    display: flex;
+    justify-content: center;
 }
 
 .start__main-icon {
     position: absolute;
     right: 20px;
     top: -25px;
-}
-
-.start__main-img {
-    width: 100%;
 }
 
 .start__queue-container {
@@ -85,5 +99,7 @@
 }
 
 .start__calages {
+    display: flex;
+    justify-content: center;
     margin: 60px 300px 150px 300px;
 }

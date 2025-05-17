@@ -5,7 +5,7 @@ import district from '../assets/icon/start__logo.png'
 
 function Footer() {
     return (
-        <footer className="footer">
+        <div className="footer__bacground">
             <div className="container">
 
                 <div className="footer__text-block">
@@ -34,9 +34,8 @@ function Footer() {
                     </div>
 
                 </div>
-
             </div>
-        </footer>
+        </div>
     )
 }
 

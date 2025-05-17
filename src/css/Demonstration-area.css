@@ -1,4 +1,9 @@
-.Demonstration-area {}
+
+.Demonstration-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .demonstration-area__map-container {
     display: flex;
@@ -35,6 +40,10 @@
 
 .demonstration-area__container {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1800px;
 }
 
 .demonstration-area__container-title {
@@ -45,9 +54,13 @@
 
 .demonstration-area__img-container {
     display: flex;
-    max-width: 2000px;
+    max-width: 1905px;
     gap: 20px;
     overflow-x: auto;
+}
+
+.demonstration-area__img-container::-webkit-scrollbar{
+    display: none;
 }
 
 .demonstration-area__poklonnaya-Mountain,
@@ -68,6 +81,7 @@
 }
 
 .persional__presentation {
+    width: 1050px;
     margin: 200px 350px;
     background-color: #ffffff;
     border-radius: 10px;

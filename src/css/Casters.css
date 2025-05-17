@@ -1,10 +1,17 @@
+:root {
+    --border-radius: 10px
+}
+
 .casters {
     color: white;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
 }
 
-.start__container{
-    padding: 20px 50px;
+.casters__container {
+    max-width: 1905px;
 }
 
 .casters__title {
@@ -15,11 +22,13 @@
 }
 
 .casters__river-line {
+    position: relative;
     background-color: #1F2057;
     padding-bottom: 50px;
 }
 
 .casters__park-line {
+    position: relative;
     background-color: #A0A747;
     padding-bottom: 50px;
 }
@@ -81,4 +90,103 @@
 .casters__river-line-img::-webkit-scrollbar,
 .casters__park-line-img::-webkit-scrollbar {
     display: none;
+}
+
+
+.black-bacground {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 0%, 70%);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-block {
+    display: flex;
+    color: black;
+    position: relative;
+}
+
+.exit {
+    background: none;
+    color: hsl(0, 0%, 100%, 50%);
+    border: none;
+    font-size: 7em;
+    position: absolute;
+    right: 0px;
+    top: -90px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.exit:hover{
+    color: white
+}
+
+.casters__river-form-img {
+    background-color: #1F2057;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+}
+
+.casters__park-form-img {
+    background-color: #A0A747;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    z-index: 1;
+}
+
+.form-container {
+    background-color: white;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    padding: 30px;
+    z-index: 2;
+}
+
+.form-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.form-subtitle {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%, 50%);
+}
+
+.form {
+    margin-top: 50px;
+    padding-top: 15px;
+    border-top: 1px solid hsl(349, 36%, 34%, 20%);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text-field {
+    background-color: hsl(0, 0%, 0%, 5%);
+}
+
+.form-btn {
+    background-color: #773844;
+    color: white;
+    cursor: pointer;
+}
+
+.form-text-field,
+.form-btn {
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
+.form-footer-text {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    color: hsl(0, 0%, 0%, 50%);
 }

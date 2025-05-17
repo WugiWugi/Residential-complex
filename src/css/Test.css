@@ -12,7 +12,7 @@
     text-align: center;
     color: white;
     gap: 30px;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
 }
 
 .test__title {
@@ -35,3 +35,171 @@
     cursor: pointer;
 }
 
+.test__form {
+    background-color: #A0A747;
+    width: 1190px;
+    height: 542px;
+    position: absolute;
+    z-index: 100;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.test__form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 660px;
+}
+
+.test__form-btn-back {
+    padding: 3px 15px 6px 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 0%, 30%);
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.test__form-pages-container {
+    display: flex;
+    gap: 5px;
+}
+
+.test__form-pages {
+    height: 4px;
+    width: 40px;
+    background-color: hsl(0, 0%, 0%, 30%);
+}
+
+.active {
+    background-color: aliceblue;
+}
+
+.test__form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.test__form-title {
+    font-size: 5em;
+    font-weight: 500;
+}
+
+.test__form-img-containers {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.test__form-img-container {
+    position: relative;
+    padding: 8px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.test__form-telegram-checkbox,
+.test__form-checkbox {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.test__form-img {
+    border-radius: 5px;
+}
+
+.test__form-img-title {
+    color: black;
+    text-align: left;
+    padding: 5px 10px 10px 10px;
+    font-size: 1.5em;
+}
+
+.test__form-get-data,
+.test__form-next {
+    margin-top: 30px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 2em;
+    background-color: hsl(0, 0%, 0%, 80%);
+    color: hsl(0, 0%, 100%, 50%);
+    cursor: pointer;
+}
+
+.test__form-btn-back:hover {
+    color: white;
+    background-color: black;
+}
+
+.test__form-img-telegram-containers {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.test__form-img-telegram-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 118px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 0%, 30%);
+}
+
+.test__form-telegram-checkbox {
+    left: 15px;
+}
+
+.test__form-get-data {
+    margin: 0px;
+}
+
+.test__form-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.test__form-text-field {
+    width: 380px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 2em;
+}
+
+.test__form-text {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: hsl(0, 0%, 100%, 50%);
+}
+
+.test__form-telegram-title {
+    line-height: 1;
+    font-size: 3.8em;
+    margin-top: 20px;
+}
+
+.test__form-telegram-img-title {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.active-next-btn {
+    color: white;
+    background-color: black;
+}
