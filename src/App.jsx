@@ -6,7 +6,7 @@ import { Apartments } from './pages/Apartments'
 import { Test } from './pages/Test'
 import { ApartmentDecoration } from './pages/Apartment-decoration'
 import { AboutUs } from './pages/About-us'
-import { Footer } from './pages/footer'
+import { Footer } from './pages/Footer'
 
 function App() {
   return (
