@@ -84,11 +84,6 @@
 
 }
 
-.test__form-title {
-    font-size: 5em;
-    font-weight: 500;
-}
-
 .test__form-img-containers {
     display: flex;
     gap: 10px;
@@ -188,6 +183,7 @@
     color: hsl(0, 0%, 100%, 50%);
 }
 
+.test__form-title,
 .test__form-telegram-title {
     line-height: 1;
     font-size: 3.8em;

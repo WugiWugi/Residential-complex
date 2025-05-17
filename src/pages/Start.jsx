@@ -40,7 +40,7 @@ function Start() {
                     </div>
                 </div>
                 <div className="start__calages">
-                    <img src={Features} alt="" srcset="" />
+                    <img src={Features} alt="" />
                 </div>
             </div>
 

@@ -56,7 +56,7 @@ function Test() {
                             <button onClick={() => { { checkbox && setPajesVisible(pagesVisible + 1); setCheckBox(false) } }} className={`test__form-next ${checkbox && `active-next-btn`}`}>Дальше</button>
                         </div>}
                         {pagesVisible === 2 && <div className="test__form-content">
-                            <h2 className="test__form-title">Какая недвижимость<br />вас интересует?</h2>
+                            <h2 className="test__form-title">Какая планировка<br />вам подходит?</h2>
                             <div className="test__form-img-containers">
                                 <div className="test__form-img-container">
                                     <input type="checkbox" className='test__form-checkbox' onChange={checkboxRegister} />
@@ -77,7 +77,7 @@ function Test() {
                             <button onClick={() => { checkbox && setPajesVisible(pagesVisible + 1); setCheckBox(false) }} className={`test__form-next ${checkbox && `active-next-btn`}`}>Дальше</button>
                         </div>}
                         {pagesVisible === 3 && <div className="test__form-content">
-                            <h2 className="test__form-title">Какая недвижимость<br />вас интересует?</h2>
+                            <h2 className="test__form-title">Какую площадь объекта<br />вы рассматриваете?</h2>
                             <div className="test__form-img-containers">
                                 <div className="test__form-img-container">
                                     <input type="checkbox" className='test__form-checkbox' onChange={checkboxRegister} />
@@ -100,7 +100,7 @@ function Test() {
                             <button onClick={() => { checkbox && setPajesVisible(pagesVisible + 1); setCheckBox(false) }} className={`test__form-next ${checkbox && `active-next-btn`}`}>Дальше</button>
                         </div>}
                         {pagesVisible === 4 && <div className="test__form-content">
-                            <h2 className="test__form-telegram-title">Подобрали 4 варианта недвижимости<br />по вашим параметрам. Куда их прислать?</h2>
+                            <h2 className="test__form-telegram-title">Подобрали 3 варианта недвижимости<br />по вашим параметрам. Куда их прислать?</h2>
                             <div className="test__form-img-telegram-containers">
                                 <div className="test__form-img-telegram-container">
                                     <input type="checkbox" className='test__form-telegram-checkbox' onChange={checkboxRegister} />
